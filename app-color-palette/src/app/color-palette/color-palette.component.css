@@ -2,7 +2,7 @@
 .palette-container {
   text-align: center;
   padding: 30px;
-  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  background: linear-gradient(to right, #2a5692, #6b7ed2);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
