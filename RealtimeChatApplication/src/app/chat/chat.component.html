@@ -1,0 +1,14 @@
+<div class="chat-box">
+  <div class="chat-header">ChatBox</div>
+  
+  <div class="messages">
+    <div *ngFor="let msg of messages">{{ msg }}</div>
+  </div>
+
+  <div class="input-container">
+    <input [(ngModel)]="message" (input)="onTyping()" placeholder="Type a message..." />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+
+  <div *ngIf="typing" class="typing">Typing...</div>
+</div>
